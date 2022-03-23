@@ -1,0 +1,32 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-left: 20px;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:25px;
+    margin-top: 25px;
+}
+.shoping-cart-container{
+    background-color: #EDC126;
+    padding: 5px;
+    text-align: center;
+}
+.btn-style1{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #FF3030;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn-style2{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #E07C24;
+    padding: 8px;
+    border-radius: 5px;
+}

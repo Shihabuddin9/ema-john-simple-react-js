@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className='navbar-style'>
+        <nav className='navbar-style fixed-top'>
             <div className='container header d-flex align-items-center justify-content-between'>
                 <img src={logo} alt="" />
                 <div className='link-style'>
